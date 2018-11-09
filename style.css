@@ -1,0 +1,59 @@
+/*colors and fonts */
+
+body {
+       background-color: salmon;
+       color: grey;
+       font-family: courier;
+       font-size: 30px;
+ }
+
+ h1, h2, h3 {
+   	       font-family: courier;
+ }
+ h1{
+   	       color:slategrey;
+   	       font-weight: 100;
+   	       letter-spacing: 2px;
+   	       font-size: 50px;
+   	       text-shadow: 2px 2px 2px
+ }
+ h2 {   
+           color: slategrey;
+ 	       font-weight: 100;
+ 	       letter-spacing: 10px;
+ 	       font-size: 60px;
+ 	}
+ h3  {
+ 	       color: slategrey;
+ 	       font-weight: 100;
+ 	       letter-spacing: 10px;
+ 	       font-size: 70px;
+ }
+ a {  
+ 	       text-decoration: none;
+ 	       color: gold;
+ }
+ a : hover {
+ 	        color: yellow;
+ }
+ img {
+ 	        box-shadow: 1px 1px 1px 
+ }
+
+ /*custom design with class */
+ .img-circle {
+ 	  border-radius: 50%;
+ }
+
+ .card-white {
+  	background: floralwhite;
+	padding: 20px;
+	margin: 50px;
+	border-radius: 8px;
+	box-shadow: 1px 10px 30px rgba(0, 0, 0, 0.1);
+ 		  
+ }
+
+ p {
+ 	font-size: 24px;
+ }
